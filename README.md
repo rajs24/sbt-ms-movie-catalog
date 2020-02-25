@@ -37,7 +37,7 @@ Git Clone: https://github.com/rajs24/sbt-ms-movie-rating.git
 
 # Follow the sequence to run the `cloud config service`, `discovery server`, and `all microservice apps`
 
-1) Start the Spring cloud config service project
+1) Start the **Spring cloud config service** project
 
 2) Start the **discovery server** project
 
@@ -48,7 +48,7 @@ Git Clone: https://github.com/rajs24/sbt-ms-movie-rating.git
 5) Start the **movie rating service** project
 
 
-# Endpoints Details
+# Endpoint Details
 GET  
 H2 db as pre-defined insert datasets for movie info and movie rating  
 `/catalog/{userid}` 
