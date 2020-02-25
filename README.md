@@ -8,34 +8,24 @@
 * **Spring cloud starter config** used to config the microservice specific app properties or yml file in git hub
 * Used the **H2 database** for the following tables movie info and movie rating. Just for illustration purpose
 
-# Download all microservice projects, discovery server and cloud config service
+# Step 1 - Download cloud config service, discovery server, and all microservice projects
 
-1) Clone the **Spring cloud config service** project to your IDE
-```
-Git Clone: https://github.com/rajs24/sbt-cloud-config-service.git
-```
+1) Clone the **Spring cloud config service** project to your IDE  
+Git Clone: [https://github.com/rajs24/sbt-cloud-config-service.git](https://github.com/rajs24/sbt-cloud-config-service.git)  
 
 2) Clone the **discovery server** project  
-```
-Git Clone: https://github.com/rajs24/sbt-discovery-server.git
-```
+Git Clone: [https://github.com/rajs24/sbt-discovery-server.git](https://github.com/rajs24/sbt-discovery-server.git)  
 
 3) Clone the **movie catalog service** project  
-```
-Git Clone: https://github.com/rajs24/sbt-ms-movie-catalog.git
-```
+Git Clone: [https://github.com/rajs24/sbt-ms-movie-catalog.git](https://github.com/rajs24/sbt-ms-movie-catalog.git)  
 
-4) Clone the **movie info service** project
-```
-Git Clone: https://github.com/rajs24/sbt-ms-movie-info.git
-```
+4) Clone the **movie info service** project  
+Git Clone: [https://github.com/rajs24/sbt-ms-movie-info.git](https://github.com/rajs24/sbt-ms-movie-info.git)  
 
-5) Clone the **movie rating service** project
-```
-Git Clone: https://github.com/rajs24/sbt-ms-movie-rating.git
-```
+5) Clone the **movie rating service** project  
+Git Clone: [https://github.com/rajs24/sbt-ms-movie-rating.git](https://github.com/rajs24/sbt-ms-movie-rating.git)  
 
-# Follow the sequence to run the `cloud config service`, `discovery server`, and `all microservice apps`
+# Step 2 - Follow the sequence to run the `cloud config service`, `discovery server`, and `all microservice apps`
 
 1) Start the **Spring cloud config service** project
 
@@ -48,7 +38,7 @@ Git Clone: https://github.com/rajs24/sbt-ms-movie-rating.git
 5) Start the **movie rating service** project
 
 
-# Endpoint Details
+# Step 3 - Endpoint Details
 GET  
 H2 db as pre-defined insert datasets for movie info and movie rating  
 `/catalog/{userid}` 
