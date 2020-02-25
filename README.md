@@ -1,6 +1,6 @@
 # Getting Started
 # Spring Boot Microservice - Movie Catalog app
-### This project developed using the following Spring boot, microservice, Spring Cloud, Spring JPA, H2 Database. 
+### This project developed using the following Spring boot, Microservice, Spring Cloud, Spring JPA, H2 Database. 
 * **Spring Cloud Netflix Eureka Client** is used to register the movie-catalog-service to the discovery server
 * By using the **discovery server**, we can avoid hardcoding the value of localhost and port no in the code. By using **RestTemplate**, each microservice app endpoint is executed
 * **Spring Cloud Netflix Hystrix** is used to view the rest endpoint call monitor in hystrix dashboard
